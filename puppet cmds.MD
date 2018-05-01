@@ -48,3 +48,13 @@ puppet resource maialias postmaster
 
 #oct dump to see file content
 od -c /tmp/testfile.txt
+
+
+#question
+
+How to find the default package provider?
+
+
+# module
+
+sudo puppet config print modulepath
