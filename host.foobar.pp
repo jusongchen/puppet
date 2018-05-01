@@ -1,0 +1,7 @@
+host { 'foobar.com':
+  ensure       => 'present',
+  host_aliases => ['fooserver'],
+  ip           => '1.2.3.4',
+  target       => '/etc/hosts',
+  comment      => 'A test host created by puppet',
+}
