@@ -1,4 +1,8 @@
 class ntp {
+  
+  Package ['ntp']-> File ['/etc/ntp.conf']~>Serivce['ntpd']
+# ~> notify/subscribe relationship
+# -> before/require relationshipt
   package { 'ntp':
     ensure => present,
   }
