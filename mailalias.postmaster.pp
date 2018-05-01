@@ -1,5 +1,5 @@
 
 mailalias { 'postmaster':
   ensure    => present,
-  recipient => 'student',
+  recipient => ['student'],
 }

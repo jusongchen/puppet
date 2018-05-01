@@ -36,4 +36,5 @@ sudo puppet apply joe.pp
 #query
 sudo puppet resource user joe
 
+puppet resource maialias postmaster
 
