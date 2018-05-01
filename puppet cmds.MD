@@ -38,3 +38,8 @@ sudo puppet resource user joe
 
 puppet resource maialias postmaster
 
+
+#linux cmd
+
+#oct dump to see file content
+od -c /tmp/testfile.txt
