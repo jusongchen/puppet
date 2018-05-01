@@ -1,4 +1,4 @@
-host { 'foobar.com':
+host { 'foobar2.com':
   ensure       => 'present',
   name =>   'foo',
   host_aliases => ['fooserver'],
