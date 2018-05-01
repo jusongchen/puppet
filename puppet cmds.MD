@@ -20,10 +20,15 @@ Ubuntu - aptget
 ## Puppet Resource Types
 [Puppet resource](https://docs.puppet.com/puppet/3.8/type.html)
 
-file
-user
-mailalias
-
+##Core Resource Type
+* notify
+* file
+* user
+* group
+* package
+* service
+* exec
+* cron/scheduled_task
 
 
 
