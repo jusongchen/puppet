@@ -1,6 +1,6 @@
 class ntp {
   
-  Package ['ntp']-> File ['/etc/ntp.conf']~>Serivce['ntpd']
+  Package ['ntp']-> File ['/etc/ntp.conf']~>Service['ntpd']
 # ~> notify/subscribe relationship
 # -> before/require relationshipt
   package { 'ntp':
