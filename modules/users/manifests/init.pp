@@ -1,4 +1,3 @@
-
 class users {
   group { 'supercool':
     ensure => 'present',
@@ -7,7 +6,8 @@ class users {
   user { 'jusong':
     ensure => present,
     uid => '2030',
-    gid => '8765',
+    gid => '10',
+    groups => 'supercool',
     comment => 'user jusong belongs to group supercool',
     managehome => true,
     password => 'chen@^8373',
@@ -15,7 +15,8 @@ class users {
   user { 'chen':
     ensure => present,
     uid => '2040',
-    gid => '8765',
+    gid => '10',
+    groups => 'supercool',
     comment => 'user chen belongs to group supercool',
     managehome => true,
     password => 'Jes*&373',
