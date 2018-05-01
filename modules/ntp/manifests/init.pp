@@ -11,5 +11,6 @@ class ntp {
   }
   service {'ntpd':
     ensure => running,
+    enable => true, #this will tell system to start this service when reboot
   }
 }
