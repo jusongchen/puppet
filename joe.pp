@@ -4,4 +4,5 @@ user { 'joe':
  gid => '10',
  comment => 'Joe User',
  managehome => true,
+ password => 'Jes*&@^
 }
