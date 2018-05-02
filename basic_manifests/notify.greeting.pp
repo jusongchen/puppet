@@ -1,4 +1,4 @@
 
 notify { 'greeting':
-   message => 'Hello, world!',
+   message => 'Hello, world! your OS family is $::osfamily',
 }
