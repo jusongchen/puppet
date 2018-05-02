@@ -5,5 +5,5 @@ notify { 'greeting':
 
 
 notify { 'greeting-with-external-facts':
-   message => "Hello, world! your site is $::site and your name is $::my_name", 
+   message => "Hello, world! your site is $::site , location at $::location and your name is $::my_name", 
 }

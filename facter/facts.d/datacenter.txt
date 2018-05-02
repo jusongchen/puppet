@@ -1,3 +1,5 @@
-location='SF west 09-0777'
-zone='SF-WEST'
-site='SF'
+location='   SF west 09-0777'  
+zone=SF-WEST
+site=SF
+
+#there is no need to quote the values!
