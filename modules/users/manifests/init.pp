@@ -7,7 +7,7 @@ group { $super_group:
 }
 user { 'chen':
   ensure           => 'present',
-  comment          => 'user chen belongs to group supercool',
+  comment          => 'user chen belongs to group $super_group',
   gid              => '10',
   groups           => ["$super_group"],  #variables in double quote are evaluated
   home             => '/home/chen',
