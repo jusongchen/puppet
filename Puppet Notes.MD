@@ -121,3 +121,11 @@ Info: Retrieving pluginfacts
 Info: Retrieving plugin
 Info: Caching catalog for ip-10-0-0-225.us-west-1.compute.internal
 Info: Applying configuration version '1525288342'
+
+# puppet catalog
+
+catalog stored on the agent and the agents never see the puppet source code but only catalog
+location:/var/lib/puppet/client_data/catalog/
+ 
+ and to see it:
+ python -m json.tool /var/lib/puppet/client_data/catalog/ip-10-0-0-225.us-west-1.compute.internal.json
