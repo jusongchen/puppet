@@ -1,0 +1,8 @@
+# This file is managed by Puppet
+
+<% @ntp_servers.each do |server_name| -%>
+server  <%= server_name %>
+<% end -%>
+
+logfile /var/log/ntp.log
+ 
