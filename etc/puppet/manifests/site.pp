@@ -15,7 +15,7 @@ node /ip-10-0-0-.*us-west-1.compute.internal/ {
 
   #ntp need parameters
   class {'ntp':
-    ntp_servers=['time.apple.com', 'us.pool.ntp.org', 'time.nist.gov'],
+    ntp_servers => ['time.apple.com', 'us.pool.ntp.org', 'time.nist.gov'],
   }
   notify { "${clientcert} is matched to regexp /ip-10-0-0-.*us-west-1.compute.internal": }
 }
