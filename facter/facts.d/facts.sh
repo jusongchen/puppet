@@ -1,2 +1,4 @@
-echo my_name="'Daniel'"
-echo my_dob="'Jul 4,2017'"
+#!/bin/bash
+echo my_name="Daniel"
+echo my_dob="Jul 4,2017"
+
