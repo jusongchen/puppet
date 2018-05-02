@@ -58,3 +58,15 @@ How to find the default package provider?
 # module
 
 sudo puppet config print modulepath
+
+
+# facter
+
+to get configurations, run cmd
+facter --json
+
+external facts
+/etc/facter/facts.d/foo.{txt,yaml,json}
+sudo mkdir -p /etc/facter/facts.d
+
+make sure facter variables start with lower case letter!
