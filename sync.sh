@@ -1,3 +1,3 @@
 git pull 
-sudo cp -r facter/facts.d/ /etc/facter/
-sudo cp -r modules /etc/puppet/
+sudo cp -r etc/facter /etc/
+sudo cp -r etc/puppet /etc/
